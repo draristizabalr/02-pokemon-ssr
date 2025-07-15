@@ -2,9 +2,9 @@ import * as fs from 'fs';
 import { PokeAPIResponse } from '../src/app/pokemons/interfaces/pokemon-api.response';
 
 
-const POKEMONS_TOTAL = 151;
+const POKEMONS_TOTAL = 10;
 const PAGES_POKEMONS = 5;
-const POKEMONS_LIMIT = 151;
+const POKEMONS_LIMIT = 10;
 
 (async () => {
   const pokemonsId = Array.from({ length: POKEMONS_TOTAL }, (_, i) => i + 1);
@@ -26,3 +26,4 @@ const POKEMONS_LIMIT = 151;
 
   console.log('routes.txt generated');
 })();
+
