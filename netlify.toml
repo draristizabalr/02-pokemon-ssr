@@ -1,7 +1,0 @@
-[build]
-  command = "bun run build"
-  publish = "dist/pokemon-ssr/browser"
-  functions = "dist/pokemon-ssr/server"
-
-[[plugins]]
-  package = "@netlify/angular-runtime"
